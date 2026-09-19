@@ -1,0 +1,15 @@
+# Core assistant (chat mode) has zero external dependencies — pure Python standard library.
+
+# Testing
+pytest>=7.0
+
+# Needed for --watch mode (Gmail integration)
+google-api-python-client>=2.100
+google-auth-httplib2>=0.2
+google-auth-oauthlib>=1.2
+
+# Needed for --watch mode (desktop notifications)
+plyer>=2.1
+
+# Optional: only needed if you run with --ai (OpenAI-powered fallback classification)
+# openai>=1.0
